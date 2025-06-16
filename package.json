@@ -1,0 +1,21 @@
+{
+  "name": "js-1-princedev90",
+  "version": "1.0.0",
+  "description": "This assignment requires you to write program for the given problem statements.",
+  "main": "program-1.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Softrefine-Internship/js-1-PrinceDev90.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Softrefine-Internship/js-1-PrinceDev90/issues"
+  },
+  "homepage": "https://github.com/Softrefine-Internship/js-1-PrinceDev90#readme"
+}
