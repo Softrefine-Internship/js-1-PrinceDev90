@@ -26,7 +26,9 @@ function selectionSort(arr) {
   for (let i = 0; i < n; i++) {
     let minIdx = i;
     for (let j = i + 1; j < n; j++) {
-      if (arr[j] < arr[minIdx]) minIdx = j;
+      if (arr[j] < arr[minIdx]) {
+        minIdx = j;
+      }
     }
     [arr[i], arr[minIdx]] = [arr[minIdx], arr[i]];
   }
@@ -36,11 +38,6 @@ function selectionSort(arr) {
 console.time();
 console.log(selectionSort([-3, 8, 7, 6, 5, -4, 3, 2, 1]));
 console.timeEnd();
-
-
-
-
-
 
 console.time();
 console.log([-3, 8, 7, 6, 5, -4, 3, 2, 1].sort());

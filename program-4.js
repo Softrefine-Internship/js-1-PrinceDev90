@@ -15,8 +15,13 @@ function mergeArray(arr1, arr2) {
 
 mergeArray([3, 5, 1], [4, 2]);
 
+// =================================================================
+
 const arr1 = [3, 5, 1];
 const arr2 = [4, 2];
 
 const merge = arr1.concat(arr2);
 console.log(selectionSort(merge));
+
+// ======================================================================
+
