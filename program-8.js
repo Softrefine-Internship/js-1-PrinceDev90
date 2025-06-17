@@ -17,7 +17,7 @@ function insertDashes(num) {
       result.push(digits[i]);
     }
   }
-
+  console.log(result);
   return result.join("");
 }
 

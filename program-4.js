@@ -25,3 +25,25 @@ console.log(selectionSort(merge));
 
 // ======================================================================
 
+// case - 3
+function mergeAndSortArrays(arr1, arr2) {
+  let merged = [];
+  let i;
+
+  for (i = 0; i < arr1.length; i++) {
+    merged[merged.length] = arr1[i];
+  }
+
+  for (i = 0; i < arr2.length; i++) {
+    merged[merged.length] = arr2[i];
+  }
+
+  return merged;
+}
+
+// Test it
+var arr1_ = [3, 5, 1];
+var arr2_ = [4, 2];
+var result = mergeAndSortArrays(arr1_, arr2_);
+
+console.log(selectionSort(result)); // [1, 2, 3, 4, 5]
